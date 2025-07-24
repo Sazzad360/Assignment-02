@@ -68,11 +68,31 @@ nav{
     color: #00000087;
 }
 .plants{
-    margin: 150px;
+    margin: 20px 150px;
     text-align: center;
     padding: 0 100px;
 }
-
+.img-name{
+    font-weight: 500;
+}
+.img-taka{
+    font-weight: 700;
+}
+.each-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+    
+}
+.card{
+    border: ;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin: 0px 150px;
+}
 @media screen and (max-width:576px) {
     .phone{
         display: none;
@@ -114,6 +134,12 @@ nav{
     .plant-des{
         font-size: 1rem;
     }
+    .card{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px;
+    }
+
+
 
     
 
